@@ -6,34 +6,38 @@ namespace guess_num
     {
         static void Main(string[] args)
         {
-            Console.Clear();
+            Random rnd = new Random();
 
-            System.Console.WriteLine("Randomize numbers!");
+            var randomNum = rnd.Next(1, 99);
 
-            for (int i = 1; i < 100; i++)
+            Boolean won = false;
+
+            while (won == false)
             {
-                System.Console.WriteLine("i equals " + i);
+
+                int num;
+
+                Console.WriteLine("Choose a number between 0 - 100.");
+
+                num = Console.Read();
+
+                System.Console.WriteLine("You chose the number " + num);
+
+                if (num == randomNum)
+                {
+                    won = true;
+                    System.Console.WriteLine("You won!");
+                }
+                else if (num > randomNum)
+                {
+                    System.Console.WriteLine("Wrong number.. Try to go lower");
+                }
+                else if (num < randomNum)
+                {
+                    System.Console.WriteLine("Wrong number.. Try to go higher");
+                }
+
             }
-
-            // Boolean won = false;
-
-            // while (won == false)
-            // {
-            //     Console.WriteLine("Choose a number between 0 - 100.");
-
-            //     string num = Console.ReadLine();
-
-            //     System.Console.WriteLine("You chose the number " + num);
-
-            //     if (num == "12")
-            //     {
-            //         won = true;
-            //         System.Console.WriteLine("You won!");
-            //     }
-
-            //     Console.Clear();
-
-            // }
         }
     }
 }

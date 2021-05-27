@@ -8,25 +8,32 @@ namespace guess_num
         {
             Console.Clear();
 
-            Boolean won = false;
+            System.Console.WriteLine("Randomize numbers!");
 
-            while (won == false)
+            for (int i = 1; i < 100; i++)
             {
-                Console.WriteLine("Choose a number between 0 - 100.");
-
-                string num = Console.ReadLine();
-
-                System.Console.WriteLine("You chose the number " + num);
-
-                if (num == "12")
-                {
-                    won = true;
-                    System.Console.WriteLine("You won!");
-                }
-
-                Console.Clear();
-
+                System.Console.WriteLine("i equals " + i);
             }
+
+            // Boolean won = false;
+
+            // while (won == false)
+            // {
+            //     Console.WriteLine("Choose a number between 0 - 100.");
+
+            //     string num = Console.ReadLine();
+
+            //     System.Console.WriteLine("You chose the number " + num);
+
+            //     if (num == "12")
+            //     {
+            //         won = true;
+            //         System.Console.WriteLine("You won!");
+            //     }
+
+            //     Console.Clear();
+
+            // }
         }
     }
 }

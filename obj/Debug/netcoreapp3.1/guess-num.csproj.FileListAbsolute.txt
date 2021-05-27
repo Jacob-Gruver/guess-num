@@ -1,0 +1,13 @@
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\bin\Debug\netcoreapp3.1\guess-num.exe
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\bin\Debug\netcoreapp3.1\guess-num.deps.json
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\bin\Debug\netcoreapp3.1\guess-num.runtimeconfig.json
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\bin\Debug\netcoreapp3.1\guess-num.runtimeconfig.dev.json
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\bin\Debug\netcoreapp3.1\guess-num.dll
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\bin\Debug\netcoreapp3.1\guess-num.pdb
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\obj\Debug\netcoreapp3.1\guess-num.csprojAssemblyReference.cache
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\obj\Debug\netcoreapp3.1\guess-num.AssemblyInfoInputs.cache
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\obj\Debug\netcoreapp3.1\guess-num.AssemblyInfo.cs
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\obj\Debug\netcoreapp3.1\guess-num.csproj.CoreCompileInputs.cache
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\obj\Debug\netcoreapp3.1\guess-num.dll
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\obj\Debug\netcoreapp3.1\guess-num.pdb
+C:\Users\gruvi\source\CodeMonkey\videos\guess-num\obj\Debug\netcoreapp3.1\guess-num.genruntimeconfig.cache

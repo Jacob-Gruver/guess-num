@@ -15,11 +15,13 @@ namespace guess_num
             while (won == false)
             {
 
-                int num;
+                string num = Console.ReadLine();
+
+
 
                 Console.WriteLine("Choose a number between 0 - 100.");
 
-                num = Console.Read();
+
 
                 System.Console.WriteLine("You chose the number " + num);
 
